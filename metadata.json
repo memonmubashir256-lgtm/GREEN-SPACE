@@ -1,0 +1,6 @@
+{
+  "name": "GreenSpace - AI-Powered Vertical Gardening Platform",
+  "description": "GreenSpace: Grow Green. Live Clean. Premium vertical gardening e-commerce platform with AI plant identification, expert plant care guides, and smart indoor gardening solutions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

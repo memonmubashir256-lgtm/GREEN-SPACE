@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  
+  --color-green-primary: #123D25;
+  --color-green-secondary: #267A3E;
+  --color-green-fresh: #4CAF50;
+  --color-green-light: #E8F2DD;
+  --color-cream-bg: #FAF9EF;
+  --color-text-main: #17251B;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-cream-bg);
+  color: var(--color-text-main);
+  overflow-x: hidden;
+}
+
+.font-serif-heading {
+  font-family: var(--font-serif);
+}
+
+/* Custom scrollbar for clean botanical feel */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF9EF;
+}
+::-webkit-scrollbar-thumb {
+  background: #C4D7BC;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #267A3E;
+}
